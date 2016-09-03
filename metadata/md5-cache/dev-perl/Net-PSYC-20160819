@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=dev-lang/perl dev-perl/Curses >=dev-vcs/git-1.8.2.1
+DESCRIPTION=Perl implementation of PSYC protocol plus psycion, remotor, syslog2psyc etc.
+EAPI=6
+HOMEPAGE=http://perlpsyc.cheettyiapsyciew.onion http://perl.psyc.eu http://perlpsyc.pages.de
+IUSE=rxaudio
+KEYWORDS=~x86 ~ppc ~sparc ~amd64
+LICENSE=GPL-2+ Artistic
+RDEPEND=rxaudio? ( media-sound/rxaudio-bin )
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-r3 src_compile:- src_install:-
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	git-r3	af7872179972ca7d8e4849c5552680c3	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	user	80aaa71614ced86f02ee1a513821dc87
+_md5_=1a38c5562e2fac32d9af359ae3dce300

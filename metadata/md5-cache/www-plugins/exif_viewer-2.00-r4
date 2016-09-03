@@ -1,0 +1,14 @@
+DEFINED_PHASES=install unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=Firefox extension to display the Exif and IPTC data in local and remote JPEG images.
+EAPI=5
+HOMEPAGE=http://araskin.webs.com/exif/exif.html
+IUSE=+symlink_all_targets target_torbrowser target_firefox target_firefox-bin
+KEYWORDS=amd64 x86
+LICENSE=MPL-1.1
+RDEPEND=!symlink_all_targets? ( target_torbrowser? ( www-client/torbrowser ) target_firefox? ( www-client/firefox ) target_firefox-bin? ( www-client/firefox-bin ) )
+SLOT=0
+SRC_URI=http://addons.mozilla.org/downloads/file/164511 -> exif_viewer-2.00.xpi
+_eclass_exported_funcs=src_unpack:mozilla-addon src_install:mozilla-addon
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	mozextension	3d8ee4835f89ff39d4666656aa603433	mozilla-addon	f708e2f3bc04ce2a45613031ce0c6916	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_md5_=10f9f26cb417750b7bfa16399a919371

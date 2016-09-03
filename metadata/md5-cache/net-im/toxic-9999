@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare unpack
+DEPEND=av? ( ( || ( media-libs/openal[alsa] media-libs/openal[pulseaudio] ) ) net-libs/tox[av] ) !av? ( net-libs/tox ) libnotify? ( x11-libs/libnotify ) sound-notify? ( media-libs/freealut ) X? ( x11-libs/libX11 ) sys-libs/ncurses:* media-gfx/qrencode dev-libs/libconfig app-text/asciidoc virtual/pkgconfig !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1
+DESCRIPTION=CLI Frontend for Tox
+EAPI=5
+HOMEPAGE=https://wiki.tox.chat/clients/toxic
+IUSE=+av +libnotify +sound-notify +X
+LICENSE=GPL-3
+RDEPEND=av? ( ( || ( media-libs/openal[alsa] media-libs/openal[pulseaudio] ) ) net-libs/tox[av] ) !av? ( net-libs/tox ) libnotify? ( x11-libs/libnotify ) sound-notify? ( media-libs/freealut ) X? ( x11-libs/libX11 ) sys-libs/ncurses:* media-gfx/qrencode dev-libs/libconfig
+SLOT=0
+_eclass_exported_funcs=pkg_postinst:- src_unpack:git-r3 src_prepare:- src_compile:- src_install:-
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	b83a2420b796f7c6eff682679d08fe25	git-r3	af7872179972ca7d8e4849c5552680c3	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_md5_=0e9d93b05edeca6ac883a3d19ae55cb0

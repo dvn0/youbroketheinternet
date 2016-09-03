@@ -1,0 +1,12 @@
+DEFINED_PHASES=-
+DESCRIPTION=Meta package for GNUnet
+EAPI=6
+HOMEPAGE=https://gnunet.org
+IUSE=+gtk experimental +gnurl curl qr
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND==net-misc/gnunet-0.10.1 experimental? ( =net-misc/gnunet-0.10.1[experimental,extra] ) qr? ( =net-misc/gnunet-0.10.1[experimental,extra,qr] =net-misc/gnunet-0.10.1[qr] ) gtk? ( =net-misc/gnunet-gtk-0.10.1 ) gnurl? ( =net-misc/gnunet-0.10.1[gnurl,curl] ) curl? ( =net-misc/gnunet-0.10.1[curl,-gnurl] )
+REQUIRED_USE=?? ( curl gnurl )
+SLOT=0
+_eclass_exported_funcs=-
+_md5_=5e730a612c6a0ce71c0bac4994c3e0e9
