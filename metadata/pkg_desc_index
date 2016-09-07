@@ -1,3 +1,4 @@
+app-arch/zipgrep 1.0: Recursively search for regular expressions in ZIP compatible archive formats
 app-emacs/neotree 9999: A tree plugin like Nerd Tree for Vim
 dev-lang/psyclpc 20121010 20130927 20160211 20160417 20160821: psycLPC is a multi-user network server programming language
 dev-libs/openssl 1.0.1m 1.0.2d 1.0.2e 1.0.2f 1.0.2g-r2 1.0.2h: full-strength general purpose cryptography library (including SSL and TLS)
@@ -10,9 +11,10 @@ dev-perl/Linux-Ext2-Attributes 0.20-r1: Attributes for Ext Filesystems
 dev-perl/Net-PSYC 20160616 20160617 20160624 20160701 20160819: Perl implementation of PSYC protocol plus psycion, remotor, syslog2psyc etc.
 dev-perl/Unix-Mknod 0.04: mknod for Perl
 dev-qt/qzxing 9999: Qt library for QR code generation and decoding
+dev-vcs/gitprivacy 1.0: git commit command that preserves the privacy of working habits
 dev-vcs/stagit 9999: static git page generator
 media-fonts/un-fonts 1.0.2: Un Core Korean TrueType fonts. UnBatang,UnBatangBold,UnDotum,UnDotumBold,UnGraphic,UnGraphicBold,UnPilgi,UnPilgiBold,UnGungseo
-media-libs/vid-stab 0.9 0.98 0.98a 0.98b 9999: Martius' camera deshaking and video stabilizing library
+media-libs/vid-stab 0.9 0.98 1.0 1.1 9999: Martius' camera deshaking and video stabilizing library
 media-sound/rxaudio-bin 1.0: Historic mp3 playback engine
 media-video/miro 6.0: Open source video player and podcast client
 media-video/mp4cut 1.0: Lossless M4V Scene Extractor
