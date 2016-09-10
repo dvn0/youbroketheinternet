@@ -29,7 +29,7 @@ net-libs/libpsyc 20160822 20160823: library for parsing and rendering PSYC packe
 net-misc/gnunet 0.10.1_pre01021 0.10.1 9999: Cryptographic GNU Mesh/Underlay Network Routing Layer
 net-misc/gnunet-gtk 0.10.1_pre01021 0.10.1 9999: Graphical front-end tools for GNUnet.
 net-misc/gnunet-meta 0.10.1_pre01021 0.10.1 9999: Meta package for GNUnet
-net-misc/gnurl 7.50.1 7.50.2.1: A reliable small footprint version of Curl based on gnutls only
+net-misc/gnurl 7.50.2.1: A reliable small footprint version of Curl based on gnutls only
 net-misc/onioncircuits 0.4 9999: A GTK application to display Tor circuits and streams
 net-misc/powwow 1.2.17: Enhanced telnet client with automation macros for MUD interaction use
 net-p2p/pybitmessage 0.4.4 0.6.0 0.6.1 9999: P2P communications protocol
