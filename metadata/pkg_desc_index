@@ -1,7 +1,7 @@
 app-arch/zipgrep 1.0: Recursively search for regular expressions in ZIP compatible archive formats
 app-emacs/neotree 9999: A tree plugin like Nerd Tree for Vim
 dev-lang/psyclpc 20121010 20130927 20160211 20160417 20160821: psycLPC is a multi-user network server programming language
-dev-libs/openssl 1.0.1m 1.0.2d 1.0.2e 1.0.2f 1.0.2g-r2 1.0.2h: full-strength general purpose cryptography library (including SSL and TLS)
+dev-libs/openssl 1.0.1m 1.0.2d 1.0.2e 1.0.2f 1.0.2g-r2 1.0.2h 1.0.2h-r2 1.1.0: full-strength general purpose cryptography library (including SSL and TLS)
 dev-libs/sway 0.6 0.7 9999: i3-compatible Wayland window manager
 dev-perl/ExtUtils-H2PM 0.10: C Header to Perl Module converter
 dev-perl/File-Touch 0.11: Update file access and modification times, creating files if needed
@@ -29,7 +29,7 @@ net-libs/libpsyc 20160822 20160823: library for parsing and rendering PSYC packe
 net-misc/gnunet 0.10.1_pre01021 0.10.1 9999: Cryptographic GNU Mesh/Underlay Network Routing Layer
 net-misc/gnunet-gtk 0.10.1_pre01021 0.10.1 9999: Graphical front-end tools for GNUnet.
 net-misc/gnunet-meta 0.10.1_pre01021 0.10.1 9999: Meta package for GNUnet
-net-misc/gnurl 7.50.1 7.50.2: A reliable small footprint version of Curl based on gnutls only
+net-misc/gnurl 7.50.1 7.50.2.1: A reliable small footprint version of Curl based on gnutls only
 net-misc/onioncircuits 0.4 9999: A GTK application to display Tor circuits and streams
 net-misc/powwow 1.2.17: Enhanced telnet client with automation macros for MUD interaction use
 net-p2p/pybitmessage 0.4.4 0.6.0 0.6.1 9999: P2P communications protocol
