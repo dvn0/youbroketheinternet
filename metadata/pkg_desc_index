@@ -25,7 +25,7 @@ net-im/utox 9999: Lightweight Tox client
 net-irc/hysteria 9999: ii wrapper script
 net-irc/ii 9999: A minimalist FIFO and filesystem-based IRC client (codemadness.nl branch)
 net-irc/psyced 9999 20160522 20160612: Server for Federated Messaging and Chat over PSYC, IRC, XMPP and more
-net-libs/libpsyc 20160822 20160823: library for parsing and rendering PSYC packets more efficiently
+net-libs/libpsyc 20160822 20160823 20160913: library for parsing and rendering PSYC packets more efficiently
 net-misc/gnunet 0.10.1_pre01021 0.10.1 9999: Cryptographic GNU Mesh/Underlay Network Routing Layer
 net-misc/gnunet-gtk 0.10.1_pre01021 0.10.1 9999: Graphical front-end tools for GNUnet.
 net-misc/gnunet-meta 0.10.1_pre01021 0.10.1 9999: Meta package for GNUnet
