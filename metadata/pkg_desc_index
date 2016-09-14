@@ -29,7 +29,7 @@ net-libs/libpsyc 20160822 20160823 20160913: library for parsing and rendering P
 net-misc/gnunet 0.10.1_pre01021 0.10.1 9999: Cryptographic GNU Mesh/Underlay Network Routing Layer
 net-misc/gnunet-gtk 0.10.1_pre01021 0.10.1 9999: Graphical front-end tools for GNUnet.
 net-misc/gnunet-meta 0.10.1_pre01021 0.10.1 9999: Meta package for GNUnet
-net-misc/gnurl 7.50.2.1: A reliable small footprint version of Curl based on gnutls only
+net-misc/gnurl 7.50.3: A reliable small footprint version of Curl based on gnutls only
 net-misc/onioncircuits 0.4 9999: A GTK application to display Tor circuits and streams
 net-misc/powwow 1.2.17: Enhanced telnet client with automation macros for MUD interaction use
 net-p2p/pybitmessage 0.4.4 0.6.0 0.6.1 9999: P2P communications protocol
@@ -37,7 +37,7 @@ net-p2p/retroshare 0.5.5c 0.6.0_pre20150415 9999: P2P private sharing applicatio
 net-proxy/torsocks 1.2-r2 2.1.0 2.2.0_rc1: Use most socks-friendly applications with Tor
 sys-apps/guix 0.11.0: The GNU Guix Package Manager.
 sys-apps/guix-bin 0.10.0: The GNU Guix Package Manager.
-sys-apps/nix 1.11.2: The Nix functional package manager
+sys-apps/nix 1.11.2: The Nix functional package manager from NixOS.org
 sys-apps/oneshot 1.0: Usability frontend to emerge to keep you from breaking your system
 sys-fs/dmc 1.0: Command line UX frontend to dm-crypt's cryptsetup with support for multiple file systems
 sys-process/scron 0.3.2 9999: Simple cron daemon
