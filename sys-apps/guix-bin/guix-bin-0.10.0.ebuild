@@ -54,11 +54,25 @@ DEPEND="!sys-apps/guix
 RDEPEND="${DEPEND}"
 
 pkg_setup() {
-	enewgroup guixbuild
-	for i in `seq -w 1 10`;
-	do
-		enewuser guixbuilder$i -1 /sbin/nologin /var/empty guixbuild;
-	done
+    enewgroup guixbuild
+    g=0
+    for i in `seq -w 0 9`;
+    do
+        enewuser guixbld$i -1 -1 /var/empty guixbuild;
+        if [ $g == 0 ]; then
+			g="guixbld$i"
+        else
+			g="$g,guixbld$i"
+        fi
+    done
+    # For some strange reason all of the generated
+    # user ids need to be listed in /etc/group even though
+    # they were created with the correct group. This is a
+    # command that patches the /etc/group file accordingly,
+    # but it expects perl to be installed. If you don't have
+    # perl installed, you have to do this manually. Adding a
+    # dependency for this is inappropriate.
+    perl -pi~ -e 's/^(guixbuild:\w+:\d+):$/\1:'$g'/' /etc/group
 }
 
 src_unpack() {
