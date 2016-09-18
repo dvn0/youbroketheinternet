@@ -11,4 +11,4 @@ SLOT=0
 SRC_URI=amd64? ( mirror://gnu-alpha/guix/guix-bin-0.10.0ary.x86_64-linux.tar.xz ) x86? ( mirror://gnu-alpha/guix/guix-bin-0.10.0ary.i686-linux.tar.xz ) mips? ( mirror://gnu-alpha/guix/guix-bin-0.10.0ary.mips64el-linux.tar.xz ) arm? ( mirror://gnu-alpha/guix/guix-bin-0.10.0ary.armhf-linux.tar.xz )
 _eclass_exported_funcs=pkg_postinst:- pkg_setup:- src_unpack:- src_install:-
 _eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423	user	80aaa71614ced86f02ee1a513821dc87
-_md5_=51d4eb72dbbb23e73ea35f3532334da5
+_md5_=8409f3a0d4b9039356c6e0071bd77166
