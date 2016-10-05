@@ -1,7 +1,8 @@
+app-admin/depot 5.50: Organize files from various collections into a common structure like /usr/local
 app-arch/zipgrep 1.0: Recursively search for regular expressions in ZIP compatible archive formats
 app-emacs/neotree 9999: A tree plugin like Nerd Tree for Vim
 dev-lang/psyclpc 20121010 20130927 20160211 20160417 20160821: psycLPC is a multi-user network server programming language
-dev-libs/openssl 1.0.1m 1.0.2d 1.0.2e 1.0.2f 1.0.2g-r2 1.0.2h 1.0.2h-r2 1.1.0: full-strength general purpose cryptography library (including SSL and TLS)
+dev-libs/openssl 0.9.8z_p8 1.0.2g-r2 1.0.2h-r2 1.0.2i 1.1.0a: full-strength general purpose cryptography library (including SSL and TLS)
 dev-libs/sway 0.6 0.7 9999: i3-compatible Wayland window manager
 dev-perl/ExtUtils-H2PM 0.10: C Header to Perl Module converter
 dev-perl/File-Touch 0.11: Update file access and modification times, creating files if needed
@@ -43,11 +44,11 @@ sys-apps/oneshot 1.0: Usability frontend to emerge to keep you from breaking you
 sys-fs/dmc 1.0: Command line UX frontend to dm-crypt's cryptsetup with support for multiple file systems
 sys-process/scron 0.3.2 9999: Simple cron daemon
 www-client/palemoon 26.2.0 26.2.1 26.2.2 26.3.3: Pale Moon Web Browser
-www-client/torbrowser 45.4.0_p605: The Tor Browser
+www-client/torbrowser 45.4.0_p605-r1: The Tor Browser
 www-plugins/certpatrol 2.0.14.1: Monitor and compare certificates your application adopts for encrypted HTTPS web sites
 www-plugins/cfc 0.0.2: Circumvention of Cloudflare and other anti-constitutional spy websites
 www-plugins/exif_viewer 2.00-r4: Firefox extension to display the Exif and IPTC data in local and remote JPEG images.
 www-servers/hiawatha 9.8 9.14 9.14-r1 9.15 10.3-r99: Advanced and secure webserver
-www-servers/onionshare 0.8.1: Share a file securely and anonymously over Tor
+www-servers/onionshare 0.9.1: Share a file securely and anonymously over Tor
 x11-misc/interrobang 9999: A tiny launcher menu packing a big bang (syntax)
 x11-misc/st 0.7 9999: simple terminal implementation for X

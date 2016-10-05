@@ -1,0 +1,12 @@
+DEFINED_PHASES=install prepare
+DESCRIPTION=Organize files from various collections into a common structure like /usr/local
+EAPI=6
+HOMEPAGE=https://www.usenix.org/publications/library/proceedings/lisa93/full_papers/wong.ps
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=CMU
+SLOT=0
+SRC_URI=http://ftp.andrew.cmu.edu/pub/depot/depot-5.50.tar.gz
+_eclass_exported_funcs=src_prepare:- src_install:-
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_md5_=34a5d6a751e118ffba9fd33e51cb6c92
