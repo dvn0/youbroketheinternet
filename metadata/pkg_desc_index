@@ -43,7 +43,6 @@ sys-apps/nix 1.11.2: The Nix functional package manager from NixOS.org
 sys-apps/oneshot 1.0: Usability frontend to emerge to keep you from breaking your system
 sys-fs/dmc 1.0: Command line UX frontend to dm-crypt's cryptsetup with support for multiple file systems
 sys-process/scron 0.3.2 9999: Simple cron daemon
-www-client/palemoon 26.2.0 26.2.1 26.2.2 26.3.3: Pale Moon Web Browser
 www-client/torbrowser 45.4.0_p605-r1: The Tor Browser
 www-plugins/certpatrol 2.0.14.1: Monitor and compare certificates your application adopts for encrypted HTTPS web sites
 www-plugins/cfc 0.0.2: Circumvention of Cloudflare and other anti-constitutional spy websites
