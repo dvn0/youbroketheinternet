@@ -36,7 +36,6 @@ net-misc/powwow 1.2.17: Enhanced telnet client with automation macros for MUD in
 net-p2p/cjdns 17.1: Encrypted networking for regular people
 net-p2p/pybitmessage 0.4.4 0.6.0 0.6.1 9999: P2P communications protocol
 net-p2p/retroshare 0.5.5c 0.6.0_pre20150415 9999: P2P private sharing application
-net-proxy/torsocks 1.2-r2 2.1.0 2.2.0_rc1: Use most socks-friendly applications with Tor
 sys-apps/guix 0.11.0: The GNU Guix Package Manager.
 sys-apps/guix-bin 0.10.0: The GNU Guix Package Manager.
 sys-apps/nix 1.11.2: The Nix functional package manager from NixOS.org
