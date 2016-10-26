@@ -9,4 +9,4 @@ RDEPEND==net-misc/gnunet-0.10.1_pre01021 experimental? ( =net-misc/gnunet-0.10.1
 REQUIRED_USE=?? ( curl gnurl )
 SLOT=0
 _eclass_exported_funcs=-
-_md5_=5e730a612c6a0ce71c0bac4994c3e0e9
+_md5_=dac9f46609dc3e2d4a526429da5ab79c
