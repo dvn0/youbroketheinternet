@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile configure install preinst prepare unpack
-DEPEND=x11-libs/gtk+:3 =net-misc/gnunet-0.10.1_pre01021 >=gnome-base/libglade-2.0 dev-libs/libunique:3 dev-util/glade:* !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 || ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
+DEPEND=x11-libs/gtk+:3 =net-misc/gnunet-999 >=gnome-base/libglade-2.0 dev-libs/libunique:3 dev-util/glade:* !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 || ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
 DESCRIPTION=Graphical front-end tools for GNUnet.
 EAPI=6
 HOMEPAGE=https://gnunet.org/
 IUSE=debug qr
-KEYWORDS=amd64 ~x86
+KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
-RDEPEND=x11-libs/gtk+:3 =net-misc/gnunet-0.10.1_pre01021 >=gnome-base/libglade-2.0 dev-libs/libunique:3 dev-util/glade:*
+RDEPEND=x11-libs/gtk+:3 =net-misc/gnunet-999 >=gnome-base/libglade-2.0 dev-libs/libunique:3 dev-util/glade:*
 SLOT=0
 _eclass_exported_funcs=pkg_preinst:subversion src_unpack:subversion src_prepare:- src_configure:- src_compile:- src_install:-
 _eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	b83a2420b796f7c6eff682679d08fe25	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	subversion	750f91bd0705a41b26ba01bcee93aaad	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
-_md5_=5e94b072731d173bde771b86ab88532e
+_md5_=b3e2f604dad682c3635f4b282d6edb82
