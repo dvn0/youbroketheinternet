@@ -1,8 +1,8 @@
 app-admin/depot 5.50: Organize files from various collections into a common structure like /usr/local
 app-arch/zipgrep 1.0: Recursively search for regular expressions in ZIP compatible archive formats
 app-emacs/neotree 9999: A tree plugin like Nerd Tree for Vim
-dev-lang/psyclpc 20121010 20130927 20160211 20160417 20160821: psycLPC is a multi-user network server programming language
-dev-libs/openssl 0.9.8z_p8 1.0.2g-r2 1.0.2h-r2 1.0.2i 1.1.0a: full-strength general purpose cryptography library (including SSL and TLS)
+dev-lang/psyclpc 20121010 20130927 20160211 20160417 20160821 20170107 99999999: psycLPC is a multi-user network server programming language
+dev-libs/openssl 0.9.8z_p8 1.0.2j 1.1.0c: full-strength general purpose cryptography library (including SSL and TLS)
 dev-libs/sway 0.6 0.7 9999: i3-compatible Wayland window manager
 dev-perl/ExtUtils-H2PM 0.10: C Header to Perl Module converter
 dev-perl/File-Touch 0.11: Update file access and modification times, creating files if needed
@@ -20,13 +20,13 @@ media-sound/rxaudio-bin 1.0: Historic mp3 playback engine
 media-video/miro 6.0: Open source video player and podcast client
 media-video/mp4cut 1.0: Lossless M4V Scene Extractor
 net-im/qtox 9999: GUI for net-libs/tox using QT5 with code similarities to net-im/tox-gui-qt
-net-im/ricochet 1.0.4 1.1.0 1.1.1 9999: End-to-end-encrypted instant messaging UI using Tor hidden services
+net-im/ricochet 1.0.4 1.1.0 1.1.1 1.1.2 1.1.3 1.1.4 9999: End-to-end-encrypted instant messaging UI using Tor hidden services
 net-im/toxic 9999: CLI Frontend for Tox
 net-im/utox 9999: Lightweight Tox client
 net-irc/hysteria 9999: ii wrapper script
 net-irc/ii 9999: A minimalist FIFO and filesystem-based IRC client (codemadness.nl branch)
 net-irc/psyced 9999 20160522 20160612: Server for Federated Messaging and Chat over PSYC, IRC, XMPP and more
-net-libs/libpsyc 20160822 20160823 20160913: library for parsing and rendering PSYC packets more efficiently
+net-libs/libpsyc 20160822 20160823 20160913 20170107 99999999: library for parsing and rendering PSYC packets more efficiently
 net-misc/gnunet 0.10.1_pre01021 0.10.1 999 9999: Cryptographic GNU Mesh/Underlay Network Routing Layer
 net-misc/gnunet-gtk 0.10.1_pre01021 0.10.1 999 9999: Graphical front-end tools for GNUnet.
 net-misc/gnunet-meta 0.10.1_pre01021 0.10.1 9999: Meta package for GNUnet
