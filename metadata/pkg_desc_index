@@ -40,10 +40,10 @@ net-proxy/torsocks 2.2.0: Use most socks-friendly applications with Tor
 sys-apps/guix 0.11.0: The GNU Guix Package Manager.
 sys-apps/guix-bin 0.10.0: The GNU Guix Package Manager.
 sys-apps/nix 1.11.2: The Nix functional package manager from NixOS.org
-sys-apps/oneshot 1.0: Usability frontend to emerge to keep you from breaking your system
-sys-fs/dmc 1.0: Command line UX frontend to dm-crypt's cryptsetup with support for multiple file systems
+sys-apps/oneshot 1.1: Usability frontend to emerge to keep you from breaking your system
+sys-fs/dmc 1.1: Command line UX frontend to dm-crypt's cryptsetup with support for multiple file systems
 sys-process/scron 0.3.2 9999: Simple cron daemon
-www-client/torbrowser 45.4.0_p605-r1: The Tor Browser
+www-client/torbrowser 31.7.0_p451 45.6.0_p608: The Tor Browser
 www-plugins/certpatrol 2.0.14.1: Monitor and compare certificates your application adopts for encrypted HTTPS web sites
 www-plugins/cfc 0.0.2: Circumvention of Cloudflare and other anti-constitutional spy websites
 www-plugins/exif_viewer 2.00-r4: Firefox extension to display the Exif and IPTC data in local and remote JPEG images.

@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile configure install prepare setup test
+DEFINED_PHASES=compile configure install postinst prepare setup test
 DEPEND=>=dev-scheme/guile-2.0.12[networking] dev-libs/libgcrypt >=dev-db/sqlite-3.0 app-arch/bzip2 sys-devel/gcc sys-devel/automake sys-devel/gettext >=net-libs/gnutls-3.3.22-r2[guile] !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 DESCRIPTION=The GNU Guix Package Manager.
 EAPI=5
@@ -10,6 +10,6 @@ RDEPEND=>=dev-scheme/guile-2.0.12[networking] dev-libs/libgcrypt >=dev-db/sqlite
 RESTRICT=bincheck
 SLOT=0
 SRC_URI=mirror://gnu-alpha/guix/guix-0.11.0.tar.gz
-_eclass_exported_funcs=pkg_setup:- src_prepare:- src_configure:- src_compile:- src_test:- src_install:-
+_eclass_exported_funcs=pkg_postinst:- pkg_setup:- src_prepare:- src_configure:- src_compile:- src_test:- src_install:-
 _eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	017377e73405d964cd0137088cddb9c3	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	user	80aaa71614ced86f02ee1a513821dc87
-_md5_=6fcc028a618997174a6f59f476d9aea2
+_md5_=9551f31b301f8f4762c12fe1eb7009d1
