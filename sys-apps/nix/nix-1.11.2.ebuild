@@ -53,7 +53,7 @@ sys-libs/zlib"
 
 DEPEND="${COMMON_DEPENDS}
 >=sys-devel/bison-2.6
->=sys-devel/flex-2.5.35
+>=sys-devel/flex-2.6.1
 virtual/perl-ExtUtils-ParseXS"
 
 RDEPEND="${COMMON_DEPENDS}
@@ -99,12 +99,13 @@ pkg_postinst() {
 	einfo "Warning, this is a test package, thanks for participating"
 	einfo "in trying to get a functional Nix package manager into"
 	einfo "Gentoo."
-        einfo "!!! It is required (read: mandatory) to read the"
-        einfo "!!! documentation for further understanding."
-        einfo "!!! Failing to read the documentation will break your"
-        einfo "!!! installed nix.  This is not a package which is"
-        einfo "!!! supposed to be upgraded or maintained through Gentoo,"
-        einfo "!!! this package was just an entry point."
+	einfo ""
+	einfo "!!! It is required (read: mandatory) to read the"
+	einfo "!!! documentation for further understanding."
+	einfo "!!! Failing to read the documentation will break your"
+	einfo "!!! installed nix.  This is not a package which is"
+	einfo "!!! supposed to be upgraded or maintained through Gentoo,"
+	einfo "!!! this package was just an entry point."
 
 #	if ! use etc_profile; then
 #		ewarn "${EROOT}etc/profile.d/nix.sh was removed (due to USE=-etc_profile)."
