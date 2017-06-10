@@ -9,7 +9,7 @@ dev-perl/File-Touch 0.11: Update file access and modification times, creating fi
 dev-perl/IO-Socket-SSL 2.24.0 2.33.0: Nearly transparent SSL encapsulation for IO::Socket::INET
 dev-perl/IPC-Run3-Simple 0.011: Make IPC::Run3 even easier to use
 dev-perl/Linux-Ext2-Attributes 0.20-r1: Attributes for Ext Filesystems
-dev-perl/Net-PSYC 20160616 20160617 20160624 20160701 20160819 20170117: Perl implementation of PSYC protocol plus psycion, remotor, syslog2psyc etc.
+dev-perl/Net-PSYC 20160616 20160617 20160624 20160701 20160819 20170117 20170610: Perl implementation of PSYC protocol plus psycion, psycamp, remotor etc.
 dev-perl/Unix-Mknod 0.04: mknod for Perl
 dev-qt/qzxing 9999: Qt library for QR code generation and decoding
 dev-vcs/gitprivacy 1.1: git commands that preserve the privacy of working habits
