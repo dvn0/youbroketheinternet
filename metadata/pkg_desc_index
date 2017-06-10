@@ -32,7 +32,7 @@ net-libs/libpsyc 20160822 20160823 20160913 20170107 99999999: library for parsi
 net-misc/gnunet 0.10.1_pre01021 0.10.1 0.10.2_rc1 0.10.2_rc2 0.10.2_rc3 9999: Cryptographic GNU Mesh/Underlay Network Routing Layer
 net-misc/gnunet-gtk 0.10.1_pre01021 0.10.1 9999: Graphical front-end tools for GNUnet.
 net-misc/gnunet-meta 0.10.1_pre01021 0.10.1 9999: Meta package for GNUnet
-net-misc/gnurl 7.50.3 7.51.0 7.52.1 7.53.1 9999: A reliable small footprint version of Curl based on gnutls only
+net-misc/gnurl 7.54.0 9999: A reliable small footprint version of Curl based on gnutls only
 net-misc/onioncircuits 0.4 9999: A GTK application to display Tor circuits and streams
 net-misc/powwow 1.2.17: Enhanced telnet client with automation macros for MUD interaction use
 net-p2p/cjdns 17.1: Encrypted networking for regular people
