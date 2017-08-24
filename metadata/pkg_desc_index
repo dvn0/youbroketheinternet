@@ -29,7 +29,7 @@ net-irc/hysteria 9999: ii wrapper script
 net-irc/ii 9999: A minimalist FIFO and filesystem-based IRC client (codemadness.nl branch)
 net-irc/psyced 9999 20160522 20160612: Server for Federated Messaging and Chat over PSYC, IRC, XMPP and more
 net-libs/libpsyc 20160822 20160823 20160913 20170107 99999999: library for parsing and rendering PSYC packets more efficiently
-net-misc/gnunet 0.10.1_pre01021 0.10.1 0.10.2_rc1 0.10.2_rc2 0.10.2_rc3 9999: Cryptographic GNU Mesh/Underlay Network Routing Layer
+net-misc/gnunet 0.10.1_pre01021 0.10.1 0.10.2_rc1 0.10.2_rc4 9999: Cryptographic GNU Mesh/Underlay Network Routing Layer
 net-misc/gnunet-gtk 0.10.1_pre01021 0.10.1 9999: Graphical front-end tools for GNUnet.
 net-misc/gnunet-meta 0.10.1_pre01021 0.10.1 9999: Meta package for GNUnet
 net-misc/gnurl 7.54.0 9999: A reliable small footprint version of Curl based on gnutls only
