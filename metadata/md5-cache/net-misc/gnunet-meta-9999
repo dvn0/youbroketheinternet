@@ -8,5 +8,4 @@ LICENSE=GPL-3
 RDEPEND==net-misc/gnunet-9999 experimental? ( =net-misc/gnunet-9999[experimental,extra] ) qr? ( =net-misc/gnunet-9999[experimental,extra,qr] =net-misc/gnunet-9999[qr] ) gtk? ( =net-misc/gnunet-gtk-9999 ) gnurl? ( =net-misc/gnunet-9999[gnurl,curl] ) curl? ( =net-misc/gnunet-9999[curl,-gnurl] )
 REQUIRED_USE=?? ( curl gnurl )
 SLOT=0
-_eclass_exported_funcs=-
 _md5_=dac9f46609dc3e2d4a526429da5ab79c
