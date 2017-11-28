@@ -1,0 +1,79 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+dev-libs/openssl:asm - Support assembly hand optimized crypto functions (i.e. faster run time)
+dev-libs/openssl:bindist - Disable EC algorithms (as they seem to be patented) -- note: changes the ABI
+dev-libs/openssl:rfc3779 - Enable support for RFC 3779 (X.509 Extensions for IP Addresses and AS Identifiers)
+dev-libs/openssl:sslv2 - Support for the old/insecure SSLv2 protocol -- note: not required for TLS/https
+dev-libs/openssl:sslv3 - Support for the old/insecure SSLv3 protocol -- note: not required for TLS/https
+dev-libs/openssl:tls-heartbeat - Enable the Heartbeat Extension in TLS and DTLS
+dev-libs/sway:gdk-pixbuf - Enable additional image format support via the x11-libs/gdk-pixbuf library.
+dev-libs/sway:swaybar - Build 'swaybar': sway's status bar component.
+dev-libs/sway:swaybg - Build 'swaybg': allows to set a desktop background image.
+dev-libs/sway:swaygrab - Build 'swaygrab': allows taking screenshots or screencasts.
+dev-libs/sway:swaylock - Build 'swaylock': sway's screen locker.
+dev-libs/sway:swaymsg - Build 'swaymsg': tool for communicating with a running sway instance.
+dev-libs/sway:wallpapers - Install sway's default wallpaper image.
+net-im/qtox:X - Adds support for X11
+net-im/qtox:filter_audio - Adds support for filtering audio input
+net-im/qtox:gtk - Adds support for GTK and Status Notifier tray backends
+net-im/toxic:X - Adds support for X11
+net-im/toxic:av - Enable audio support
+net-im/toxic:libnotify - Enable desktop notification support.
+net-im/toxic:sound-notify - Adds support for sound notifications.
+net-im/utox:dbus - Adds dbus support for desktop notifications
+net-im/utox:filter_audio - Adds support for filtering audio input
+net-misc/gnunet:X - X11 features
+net-misc/gnunet:bluetooth - bluetooth
+net-misc/gnunet:dane - build with gnutls + dane
+net-misc/gnunet:experimental - enable experimental features
+net-misc/gnunet:extra - required IUSE for experimental features
+net-misc/gnunet:gnurl - build with gnurl, this is prefered over building with curl.
+net-misc/gnunet:gnutls - gnutls
+net-misc/gnunet:gstreamer - build 'gnunet-conversation' with gstreamer backend
+net-misc/gnunet:httpd - libmicrohttpd
+net-misc/gnunet:mysql - use mysql for database
+net-misc/gnunet:nls - nls
+net-misc/gnunet:nss - nss
+net-misc/gnunet:postgres - use postgresql for database
+net-misc/gnunet:pulseaudio - build 'gnunet-conversation' with pulseaudio backend
+net-misc/gnunet:qr - experimental feature
+net-misc/gnunet:sqlite - use sqlite for database (default)
+net-misc/gnunet:ssl - openssl
+net-misc/gnunet:tex - build with texlive (pdflatex) to get 'gnunet-bcd' for business cards
+net-misc/gnunet-gtk:debug - don't set, only for debugging purposes
+net-misc/gnunet-gtk:qr - experimental feature
+net-misc/gnunet-meta:curl - Build gnunet with curl using gnutls backend
+net-misc/gnunet-meta:experimental - Install experimental features which are not yet stable
+net-misc/gnunet-meta:gnurl - Build gnunet with libgnurl instead of libcurl
+net-misc/gnunet-meta:gtk - Install gtk gui tools for GNUnet
+net-misc/gnunet-meta:qr - qr stuff.
+net-misc/gnurl:dane - dane
+net-misc/powwow:cmdsep - patch the command separator character from ; to \\ (winking is essential to any fine chat)
+net-p2p/retroshare:cli - Enables the CLI version of RetroShare
+net-p2p/retroshare:feedreader - Enables the Feedreader plugin
+net-p2p/retroshare:links-cloud - Enables LinkClouds plugin
+net-p2p/retroshare:qt4 - Enables the GUI using qt4
+net-p2p/retroshare:voip - Enables VOIP plugin
+sys-apps/nix:etc_profile - Install /etc/profile.d/ entry to inject nix support for all users.
+sys-apps/nix:gc - Enable garbage collection in the Nix expression evaluator (use dev-libs/boehm-gc).
+www-client/torbrowser:custom-optimization - Fine-tune custom compiler optimizations (-Os, -O0, -O1, -O2, -O3)
+www-client/torbrowser:gstreamer-0 - Use gstreamer:0.10 instead of gstreamer:1 for media support
+www-client/torbrowser:jemalloc3 - Enable or disable jemalloc3 (forced-on when supported prior to 38.0)
+www-client/torbrowser:system-cairo - Use the system-wide x11-libs/cairo instead of bundled.
+www-client/torbrowser:system-harfbuzz - Use the system-wide media-libs/harfbuzz and media-gfx/graphite2 instead of bundled.
+www-client/torbrowser:system-icu - Use the system-wide dev-libs/icu instead of bundled.
+www-client/torbrowser:system-jpeg - Use the system-wide media-libs/libjpeg-turbo instead of bundled.
+www-client/torbrowser:system-libevent - Use the system-wide dev-libs/libevent instead of bundled.
+www-client/torbrowser:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled.
+www-client/torbrowser:system-sqlite - Use the system-wide dev-db/sqlite installation with secure-delete enabled
+www-servers/hiawatha:cache - Enable caching of content
+www-servers/hiawatha:monitor - Pull in www-apps/hiawatha-monitor
+www-servers/hiawatha:rewrite - Enable the rewrite toolkit
+www-servers/hiawatha:rproxy - Enable reverse proxy support
+www-servers/hiawatha:ssl - Enable TLS support via net-libs/mbedtls
+www-servers/hiawatha:tomahawk - Enable Tomahawk control server
+www-servers/hiawatha:xslt - Enable XSLT support. This is also needed for directory listings
+x11-misc/interrobang:examples - Install examples, usually source code
+x11-misc/interrobang:percontation - Alternative to compgen for tab default
