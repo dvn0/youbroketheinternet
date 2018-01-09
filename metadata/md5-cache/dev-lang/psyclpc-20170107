@@ -8,5 +8,5 @@ KEYWORDS=x86 ~ppc ~amd64
 LICENSE=GPL-2
 RDEPEND=zlib? ( sys-libs/zlib ) ldap? ( net-nds/openldap ) berkdb? ( sys-libs/db:= ) mysql? ( dev-db/mysql ) postgres? ( dev-db/postgresql:= ) ssl? ( !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= ) ) vim-syntax? ( >=app-editors/vim-core-7 ) emacs? ( virtual/emacs )
 SLOT=0
-_eclasses_=desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	elisp-common	23f47b2e1de7abf387105eddd1318738	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	97ce9decef1ff4b6c5be700283f67343	git-r3	af7872179972ca7d8e4849c5552680c3	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
+_eclasses_=desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	elisp-common	23f47b2e1de7abf387105eddd1318738	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e7258392d5eda499c1cfa94db650b61	git-r3	af7872179972ca7d8e4849c5552680c3	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
 _md5_=01fdb94635dc4107d1ad743c72391c14
