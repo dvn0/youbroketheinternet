@@ -8,7 +8,7 @@ dev-perl/Unix-Mknod 0.04: mknod for Perl
 dev-qt/qzxing 9999: Qt library for QR code generation and decoding
 dev-vcs/gitprivacy 1.1: git commands that preserve the privacy of working habits
 media-fonts/un-fonts 1.0.2: Un Core Korean TrueType fonts. UnBatang,UnBatangBold,UnDotum,UnDotumBold,UnGraphic,UnGraphicBold,UnPilgi,UnPilgiBold,UnGungseo
-media-video/mp4cut 1.0: Lossless M4V Scene Extractor
+media-video/mp4cut 1.1: Lossless M4V Scene Extractor
 net-irc/psyced 9999 20160522 20160612: Server for Federated Messaging and Chat over PSYC, IRC, XMPP and more
 net-misc/gnunet 0.10.1_pre01021: Cryptographic GNU Mesh/Underlay Network Routing Layer
 net-misc/gnunet-gtk 0.10.1_pre01021: Graphical front-end tools for GNUnet.
