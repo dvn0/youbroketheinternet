@@ -1,9 +1,9 @@
 app-arch/zipgrep 1.0: Recursively search for regular expressions in ZIP compatible archive formats
-dev-libs/openssl 0.9.8z_p8 1.0.2k: full-strength general purpose cryptography library (including SSL and TLS)
+dev-libs/openssl 0.9.8z_p8 1.0.2n: full-strength general purpose cryptography library (including SSL and TLS)
 dev-perl/File-Touch 0.11: Update file access and modification times, creating files if needed
 dev-perl/IO-Socket-SSL 2.24.0 2.33.0: Nearly transparent SSL encapsulation for IO::Socket::INET
 dev-perl/IPC-Run3-Simple 0.011: Make IPC::Run3 even easier to use
-dev-perl/Net-PSYC 20160819 20170117 20170610: Perl implementation of PSYC protocol plus psycion, psycamp, remotor etc.
+dev-perl/Net-PSYC 20160819 20170117 20170610 20180214: Perl implementation of PSYC protocol plus psycion, psycamp, remotor etc.
 dev-perl/Unix-Mknod 0.04: mknod for Perl
 dev-qt/qzxing 9999: Qt library for QR code generation and decoding
 dev-vcs/gitprivacy 1.1: git commands that preserve the privacy of working habits
